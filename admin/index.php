@@ -74,4 +74,4 @@ _header_admin('ahmed');
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-<?php ?>
+<?php _footer_admin(); ?>

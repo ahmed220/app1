@@ -251,8 +251,8 @@
               </span>
           </a>
           <ul class="treeview-menu" style="display:none;">
-            <li><a href="<?php echo ADMIN_BASS; ?>admins.php"> <span>Admins</span></a></li>
-            <li><a href="students.html"> <span>Students</span></a></li>
+            <li><a href="<?php ADMIN_BASS; ?>admins.php"> <span>Admins</span></a></li>
+            <li><a href="<?php ADMIN_BASS; ?>students.php"> <span>Students</span></a></li>
             <li><a href="teachers.html"> <span>Teachers</span></a></li>
           </ul>
         </li>
@@ -466,48 +466,6 @@
        immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
 
-  <div class="modal fade" id="add-new">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title">Add New course</h4>
-        </div>
-        <form action="">
-          <div class="modal-body">
-            <div class="row">
-              <div class="col-xs-12 col-md-6">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="username">
-                </div>
-              </div>
-
-              <div class="col-xs-12 col-md-6">
-                <div class="form-group">
-                    <input type="email" class="form-control" placeholder="email">
-                </div>
-              </div>
-
-              <div class="col-xs-12">
-                <div class="form-group">
-                  <input type="password" class="form-control" placeholder="password">
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </form>
-
-      </div>
-      <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-  </div>
-  <!-- /.modal -->
 
 </div>
 <!-- ./wrapper -->
